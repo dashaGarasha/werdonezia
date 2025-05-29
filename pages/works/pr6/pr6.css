@@ -1,0 +1,41 @@
+nav{
+    background-color: rgb(230, 216, 243);
+    display: flex;
+    padding: 30px;
+    justify-content: center;
+    gap: 50px;
+    background-image: url(/img/герли.gif);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: left;
+}
+section{
+    background-color: rgb(238, 212, 225);
+}
+aside{
+    background-color: rgb(201, 235, 223);
+    padding: 160px;
+}
+.content{
+    display: flex;
+    padding: 10px;
+}
+main{
+    margin: 0 20px 0;
+    background-color:rgb(203, 255, 210);
+}
+footer{
+    background-color: rgb(236, 238, 215);
+    background-image: url(/img/спанчик.gif);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+#r{
+    background-image: url(/img/танцыгерл.gif);
+    width: 160%;
+    height: 100px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
