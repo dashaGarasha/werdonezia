@@ -1,0 +1,2233 @@
+    /* ОСНОВНОЙ ШРИФТ И ЦВЕТ САЙТА */
+body {
+    font-family: Arial, sans-serif;
+    background-color: rgb(255, 248, 251);
+    font-size: 16px;
+}
+    /* ОСНОВНОЙ РАЗМЕР ТЕКСТА ВСЕГО САЙТА */
+h1{
+    font-size: 24px;
+}
+h2{
+    font-size: 20px;
+}
+h3{
+    font-size: 18px;
+}
+        /* НАВИГАЦИЯ, ШАПКА */
+#glav ul{
+    background: url(./img/шапка.gif);
+    list-style-type: none;
+    display: flex;
+    padding: 50px;
+    justify-content: center;
+}
+#glav a{
+    color: rgb(255, 255, 255);
+    background-color: rgb(19, 12, 44);
+}
+#glav ul li{
+    margin-left: 20px;
+    text-align: center;
+}
+    /* УКРАШЕНИЕ ДЛЯ НАДПИСИ ""ПЕРСОНАЛЬНЫЙ САЙТ ГАРАЕВОЙ ДАРЬИ" */
+hr {
+    border: none;
+    border-top: medium double #333;
+    color: #53128f;
+    text-align: center;
+}
+hr:after {
+    content: "♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥";
+    position: relative;
+    top: -15px;
+    font-size: 25px;
+    background-color: rgb(255, 248, 251);
+}
+.shaa{
+    display: flex;
+    color: rgb(255, 179, 239);
+    background-color: rgb(50, 34, 107);
+    background-image: url(./img/нянке.gif);
+    background-size: contain;
+}
+.shaa h1{
+    background-color: rgb(50, 34, 107);
+}
+        /* СТАРТОВЫЙ БЛОК */
+.cel{
+    background: url(./img/цель\ \(2\).jpg);  
+    width: 280px;
+    height: 250px;
+    background-size: cover;
+    border-radius: 30px;
+  }
+  .usid{
+    background: url(./img/сидаун.jpg);  
+    width: 280px;
+    height: 250px;
+    background-size: cover;
+    border-radius: 30px;
+  }
+  .lov{
+    background: url(./img/лав.jpg);  
+    width: 280px;
+    height: 250px;
+    background-size: cover;
+    border-radius: 30px;
+  }
+  .tt article{
+      display: inline;
+      padding: 60px;
+  }
+  .ss article{
+      display: inline;
+      padding: 75px;
+  }
+  .ser1{
+    background: url(./img/сер1.png);  
+    width: 150px;
+    height: 150px;
+    background-size: cover;
+    padding: 10px;
+  }
+  .ser2{
+    background: url(./img/сер1.png);  
+    width: 150px;
+    height: 150px;
+    background-size: cover;
+    padding: 10px;
+  }
+  .num1 {
+    display: flex;
+    margin-right: 20px;
+    gap: 20px;
+}
+.num2 {
+    display: flex;
+    margin-right: 20px;
+    gap: 20px;
+} 
+    /* НОВОСТЬ 1 РЫБАКИ СПАСЛИ МОРСКОГО КОТИКА */
+.kotim h2{
+    display: inline;
+    vertical-align: middle;
+    margin-right: 10px;
+}
+.kotim:after {
+    content: "";
+    display: inline-block;
+    background: url(./img/розови.gif);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 80px;
+    height: 80px;
+    vertical-align: middle;
+}
+.manin{
+    background: url(./img/манька.gif);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 250px;
+    height: 250px;
+    border-radius: 30px;
+    margin-left: 10px;
+}
+    /* НОВОСТЬ 2 ГОРИЛЛЫ СОЧИНЯЮТ  */
+.gorilla{
+    display: inline-block;
+}
+.gorilla h2{
+    display: inline;
+    vertical-align: middle;
+    margin-right: 10px;
+}
+.gorilla:after {
+    content: "";
+    display: inline-block;
+    background: url(./img/опагори.gif);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 70px;
+    height: 70px;
+    vertical-align: middle;
+}
+.eating{
+    background: url(./img/горилла\ ест.gif);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 250px;
+    height: 250px;
+    border-radius: 30px;
+    margin-left: 10px;
+}
+        /* АВТОРИЗАЦИЯ */
+.form1 {
+    background: url(./img/поезд.gif);
+    padding: 30px;
+    border-radius: 10px;
+    width: 300px;
+    margin: 30px 0;
+}
+.form1 input[type="text"],
+.form1 input[type="password"],
+.form1 input[type="email"],
+.form1 input[type="date"] {
+    width: 80%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 3px solid #cab7c4;
+    border-radius: 10px;
+}
+.form1 input[type="reset"]{
+    width: 50%;
+    padding: 5px;
+    margin: 10px 0;
+    background-color: rgb(255, 221, 237);
+    border: 3px solid #e27ba6;
+}
+.form1 button {
+    width: 50%;
+    padding: 5px;
+    background-color: rgb(239, 219, 255);
+    border: 3px solid #a674b9;
+}
+label{
+    color: #e3ebff;
+}
+.hh13{
+    color: #bbabff;
+    text-align: center;
+}
+        /* ИНФОРМАЦИЯ ОБ АВТОРЕ */
+.im{
+    background: url(./img/персоналити.jpg);
+    width: 300px;
+    height: 300px;
+    background-size: cover;
+    border-radius: 80px;
+}
+#nua {
+    list-style: none;
+}
+#nua #yey:before {
+    content: "";
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background-image: url(./img/монета.gif);
+    background-size: cover;
+    margin-right: 5px;
+}
+#nuaa {
+    list-style: none;
+}
+#nuaa #yeyy::before {
+    content: "";
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background-image: url(./img/радугазвезда.gif);
+    background-size: cover;
+    margin-right: 5px;
+}
+.skvi{
+    background: url(/img/сквид.gif);
+    width: 150px;
+    height: 150px;
+    background-size: contain;
+    border-radius: 30px;
+    background-repeat: no-repeat;
+}
+            /* РЕГИСТРАЦИЯ */
+.form2 {
+    background: url(./img/котя.gif);
+    padding: 30px;
+    border-radius: 10px;
+    width: 300px;
+    margin: 30px 0;
+}
+.form2 input[type="text"],
+.form2 input[type="password"],
+.form2 input[type="email"],
+.form2 input[type="date"] 
+.form2 input[type="date"] {
+    width: 80%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 3px solid #cab7c4;
+    border-radius: 10px;
+}
+.form2 input[type="conf-password"]{
+    width: 80%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 3px solid #cab7c4;
+    border-radius: 10px;
+}
+.form2 input[type="reset"]{
+    width: 50%;
+    padding: 5px;
+    margin: 10px 0;
+    background-color: rgb(255, 221, 237);
+    border: 3px solid #e27ba6;
+}
+.form2 input[type="submit"]{
+    width: 50%;
+    padding: 5px;
+    background-color: rgb(239, 219, 255);
+    border: 3px solid #a674b9;
+}
+.form2 input[type="date"]{
+    width: 80%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 3px solid #cab7c4;
+    border-radius: 10px;
+}
+.hh23{
+    color: #ec7dab;
+    text-align: center;
+}
+        /* МОИ РАБОТЫ */
+.fly{           
+    background: url(./img/летит.gif);
+    width: 200px;
+    height: 200px;
+    background-size: contain;
+    border-radius: 30px;
+    background-repeat: no-repeat;
+}
+#sts {
+    list-style: none;
+}
+#sts #rwe::before {
+    content: "";
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background-image: url(./img/капкун.gif);
+    background-size: cover;
+    margin-right: 5px;
+}
+/* Практическая работа 7 */
+.p1{
+    text-align: center;
+}
+.p2{
+    text-indent: 50px;
+}
+.p3{
+    line-height: 350%;
+}
+.p4{
+    vertical-align:sub;
+}
+.p5{
+    word-spacing: 50px;
+}
+.p6{
+    letter-spacing: 7px;
+}
+.p7{
+    white-space: pre-wrap;
+}
+.p8{
+    tab-size: 10px;
+}
+.p9{
+    text-transform: capitalize;
+}
+.p10{
+    direction: rtl;
+}
+#p11{
+    unicode-bidi: bidi-override;
+}
+#p12{
+    text-decoration: underline;
+}
+#p13:first-letter{
+    font-size: 1.2em;
+    padding: 5px 10px;
+    margin-right: 5px; 
+    margin-bottom: 2px;
+    background: #EE9966;
+    color: #FAF4F4;
+    float: left;
+    font-weight: bold;
+}
+#p14:first-line{
+    font-size: 1.5em;
+    padding: 2px 10px;
+    margin-right: 5px; 
+    background: #FAF4F4;
+    border: 6px double;
+    color: #b166ee;
+    float: left;
+    font-weight: bold;  
+}
+#p15{
+    quotes: none;
+}
+#p16{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#p17{
+    font-style: oblique;
+}
+#p18{
+    font-variant: small-caps;
+}
+#p19{
+    font-weight: bolder;
+}
+#p20{
+    font-size: relative-size;
+}
+#p21{
+    color: aqua;
+}
+#p22{
+    font: italic bold 14px/1.5 Times;
+}
+/* ПРАКТИЧЕСКАЯ 8 часть 1 */
+.wraper{
+    width: 60%;
+    margin: 0 auto;
+}
+#mainpart1{
+    border: 1px solid orange;
+}
+#part1 ul{
+    padding: 0;
+    margin: 0;
+}
+#part1 li{
+    display: inline-block;
+}
+#mainpart1 ul{
+    background: orange;
+}
+#mainpart1 li, #mainpart1 li a {
+    display: inline-block;
+}
+#mainpart1 li a{
+    text-decoration: none;
+    color: white;
+    font-family: Arial;
+    font-weight: bold;
+    font-size: 16px;
+    padding: 20px;
+}
+#mainpart1 li a:hover{
+    background: white;
+    color: #000000;
+}
+#bodypart1 {
+    color: #CC8000;
+}
+#mainpart1 p {
+    text-indent: 50px;
+    line-height: 33px;
+    text-align: center;
+    margin: 0;
+    font-size: 17px;
+    padding: 0 10px;
+}
+#mainpart1 p a {
+    font-weight: bold;
+    color: #c97f00;
+}
+#footerpart1 nav{
+    text-align: center;
+    margin: 20px 0;
+}
+#footerpart1 li a{
+    color: #9B6100;
+    text-decoration: none;
+    font-weight: bold;
+    font-family: Arial;
+    font-size: 13px;
+    padding: 0 10px;
+}
+#footerpart1 li a:hover{
+    text-decoration: underline;
+    color: #000;
+}
+.ho, .hoo{
+    color: #9B6100;
+    text-align: center;
+}
+/* ПРАКТИЧЕСКАЯ 8 часть 2 */
+.wraper2{
+    width: 40%;
+    margin: 0 auto;
+}
+#mainpart2{
+    background-color: rgb(255, 243, 254);
+    color: #000000;
+    margin: 30px auto;
+    padding: 0 20px;
+}
+#footerpart2{
+    color: #000;
+    margin: 20px;
+}
+#mainpart2 h3{
+    font-family: Roboto;
+    font-size: 22px;
+    margin: 20px;
+}
+#mainpart2 a{
+    margin-left: 80%;
+    color: blue;
+    margin-bottom: 6%;
+    display: block;
+    margin: 0px 1 0px;
+}
+#news, #company, #interesting{
+    border: 1px solid black;
+    margin: 20px;
+}
+#mainpart2 p{
+    margin: 20px;
+    line-height: 28px;
+    text-align: justify;
+}
+#mainpart2 img{
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin: 20px;
+    float: left;
+    margin: 4px 10px 2px 0px;
+    padding:2px;
+}
+#part2 ul{
+    padding: 0;
+    margin: 0;
+}
+#mainpart2 ul{
+    background: rgb(0, 0, 0);
+}
+#mainpart2 li, #mainpart2 li a {
+    display: inline-block;
+}
+#mainpart2 li a{
+    text-decoration: none;
+    color: rgb(255, 226, 242);
+    font-family: Roboto;
+    font-size: 16px;
+    padding: 20px;
+    text-align: center;
+}
+#footerpart2 #part2{
+    text-align: center;
+    margin: 20px 0;
+}
+#footerpart2 li a{
+    color: rgb(216, 187, 203);
+    text-decoration: none;
+    font-family: Roboto;
+    font-size: 15px;
+    padding: 0 10px;
+}
+#footerpart2 li a {
+    display: inline-block;
+}
+#part2 li{
+    display: inline-block;
+}
+#bodypart2{
+    background-color: #000;
+}
+.seaa{
+    background: url(./img/опос.png);
+    height: 50px;
+    width: 200px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    padding: 40px;
+    margin-left: 20%;
+}
+#mainpart2 li a:hover{
+    background: rgb(48, 48, 48);
+    color: #ff9cf7;
+}
+#footerpart2 li a:hover{
+    text-transform: lowercase;
+    color: #ff7bc4;
+}
+/* ПРАКТИЧЕСКАЯ РАБОТА 9 */
+.line li{
+    display: inline-block;
+    background-color: #ffc0ce;
+    padding: 15px;
+    margin: 15px;
+    font-size: 14px;
+}
+.links a{
+    display: block;
+    background-color: #b166ee;
+    padding: 17px;
+    margin: 15px;
+    margin-right: 80%;
+    color: whitesmoke;
+    text-decoration: none;
+}
+.blocks div{
+    display: inline;
+    background-color: rgb(255, 142, 62);
+    padding: 20px;
+    margin: 30px;
+    color: #53128f;
+}
+.blocks{
+    margin-top: 40px;
+}
+.blocks .non{
+    display: none;
+}
+.links-markers a{
+    display: list-item;
+    background-color: rgb(51, 20, 20);
+    color: wheat;
+    padding: 13px;
+    margin-right: 85%;
+}
+.links-markers{
+    margin-top: 40px;
+}
+.post1 .image{
+    margin-top: 30px;
+    background: url(./pages/works/pr9/media/weather-sun.jpg);
+    width: 100px;
+    height: 100px;
+    border: 2px solid rgb(223, 151, 228);
+    float: left;
+    margin: 30px;
+    margin-top: -5px;
+}
+.post1 {
+    padding: 7px;
+    background-color: #930303;
+    margin: 20px;
+    color: aliceblue;
+}
+.post2 .image{
+    margin-top: 30px;
+    background: url(./pages/works/pr9/media/weather-sun.jpg);
+    width: 100px;
+    height: 100px;
+    border: 2px solid rgb(223, 151, 228);
+    float: right;
+    margin-top: -5px;
+}
+.post2 {
+    padding: 7px;
+    background-color: #930303;
+    margin: 20px;
+    color: aliceblue;
+}
+.nu1 p{
+    display: inline-block;
+    background-color: #a674b9;
+    color: beige;
+    padding: 5px;
+    margin: 0px;
+    width: 120px;
+    text-align: center;
+    font-size: 25px;
+}
+.image11{
+    background: url(./pages/works/pr9/media/weather-sun.jpg);
+    width: 110px;
+    height: 110px;
+    background-repeat: no-repeat;
+}
+.image22{
+    background: url(./pages/works/pr9/media/weather-snow.jpg);
+    width: 110px;
+    height: 110px;
+    background-repeat: no-repeat;
+}
+.image33{
+    background: url(./pages/works/pr9/media/weather-blizzard.jpg);
+    width: 110px;
+    height: 110px;
+    background-repeat: no-repeat;
+}
+.nu2 div{
+    display: inline-block;
+    margin: 10px;
+}
+.nu3 p{
+    display: inline-block;
+    margin: 40px;
+    font-size: 30px;
+    margin-top: -30px;
+}
+/* ПРАКТИЧЕСКАЯ РАБОТА №10 */
+.bodypr10{
+    background-color: #000;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
+.osnova{
+    width: 1170px;
+    height: 718px;
+    margin: 143px 375px 215px 375px;
+}
+#team{
+    font-size: 32px;
+    margin-bottom: 20px;
+    font-family: "PopMed";
+}
+#team a{
+    color: white;
+    text-decoration: none;
+}
+#lorem{
+    font-size: 18px;
+    margin-top: 50px;
+    font-family: "PopTh";
+}
+.cards-container{
+    display: flex;
+    justify-content: space-between;
+}
+.osnova .card{
+    display: flex;
+}
+#pers{
+    font-family: "PopMed";
+}
+#opis{
+    font-family: "PopTh";
+}
+.card .pod{
+    background-color: #0B0B0B;
+    margin: 30px;
+    margin-top: 300px;
+    width: 370px;
+    height: 260px;
+    text-align: center;
+}
+.card .pod #pers {
+    font-size: 22px;
+    font-weight: 600px;
+    padding-top: 150px;
+    position: relative;
+}
+.card #cc1{
+    background: url(./img/mask3.png);
+    width: 310px;
+    height: 380px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: absolute;
+    margin-left: 60px;
+    margin-top: 50px;
+}
+.card #cc2{
+    background: url(./img/mask1.png);
+    width: 310px;
+    height: 380px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: absolute;
+    margin-left: 60px;
+    margin-top: 50px;
+}
+.card #cc3{
+    background: url(/img/mask2.png);
+    width: 310px;
+    height: 380px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: absolute;
+    margin-left: 60px;
+    margin-top: 50px;
+}
+@font-face{
+    font-family: PopMed;
+    src: url(./pages/works/pr10/Poppins-Medium.ttf);
+}
+@font-face{
+    font-family: PopTh;
+    src: url(./pages/works/pr10/Poppins-Thin.ttf);
+}
+@font-face{
+    font-family: PopLi;
+    src: url(./pages/works/pr10/Poppins-Light.ttf);
+}
+/* ПРАКТИЧЕСКАЯ РАБОТА №11 */
+.head11{
+    background: #ebe5b3;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+.head11 .logoap{
+    background: url(./img/kiwi.png);
+    height: 150px;
+    width: 150px;
+    background-size: cover;
+}
+.head11 h1{
+    text-align: center;
+    line-height: 100px;
+    margin: 0px;
+    color: rgb(201, 72, 111);
+    font-size: 32px;
+    margin-top: 20px;
+    font-family:"sak";
+}
+.head11 ul{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    list-style-type: none;
+    margin-top: 20px;
+    font-family:"sak";
+}
+.head11 ul li a{
+    display: block;
+    background: #ebe5b3;
+    padding: 10px;
+    margin: 30px 7px 0;
+    text-decoration: none;
+    color: rgb(61, 45, 39);
+}
+.head11 ul li a:hover{
+    background: rgb(236, 217, 110);
+}
+@font-face{
+    font-family: sak;
+    src: url(./pages/works/pr11/ofont.ru_Rounded\ Sans\ Serif\ 7.ttf);
+}
+@font-face{
+    font-family: mon;
+    src: url(./pages/works/pr11/ofont.ru_Montserrat\ Alternates.ttf);
+}
+ .reaction{              /*ПЕРВЫЙ ТОВАР */
+    display: inline-block;
+    font-size: 0;
+    margin-top: -25px;
+}
+.reaction span{
+    padding: 0;
+    font-size: 11px;
+    line-height: 1;
+    margin: 6px;
+}
+.reaction .zvez::before{
+    content: "★";
+    color: rgb(255, 166, 0); 
+}
+.reaction .soo::before{
+    content: "✉";
+    color: rgb(77, 77, 77); 
+}
+.reaction .best{
+    color: rgb(255, 166, 0);
+    font-weight: bold;
+}
+.btn11{
+    font-family: "mon";
+    background: #abc965;
+    color: rgb(255, 255, 255);
+    padding: 10px;
+    margin-top: 30px;
+    font-size: 13px;
+    height: 40px;
+    width: 120px;
+    border-radius: 10px;
+    border: 1px solid rgb(226, 109, 178);
+    font-weight: bold;
+}
+.btn11:hover{
+    cursor: pointer;
+    border: 3px solid rgb(226, 109, 178);
+}
+.main11 h2{
+    font-family: "mon";
+    font-size: 20px;
+}
+.art11{
+    font-family: "mon";
+}
+.mdm{
+    background: url(./img/m&m.png);
+    width: 200px;
+    height: 150px;
+    margin-bottom: 10px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.oboloch{
+    background-color: #f1e5e9;
+    padding: 20px;
+    border-radius: 20px;
+}
+.oboloch #rasprod{
+    background: linear-gradient(to right, #cc2d5d, #fd66a0);
+    border-radius: 3px;
+    padding: 3px;
+    color: #ffffff;
+    font-size: 13px;
+    font-weight: bold;
+}
+.oboloch #skitka{
+    background: linear-gradient(to right, #cc2d5d, #fd66a0);
+    border-radius: 3px;
+    padding: 3px;
+    color: #ffffff;
+    font-size: 13px;
+    font-weight: bold;
+}
+.price{
+    font-weight: bold;
+    text-decoration: line-through;
+    text-decoration-color: red; color: rgb(138, 127, 130);
+}
+.oboloch .serdse{
+    background: url(./img/heart.png);
+    width: 30px;
+    height: 30px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    filter: brightness(1) saturate(1);
+}
+.raser{
+    display: flex;
+    gap: 80px;
+}
+.toch{
+    background: url(./img/tosha.png);
+    width: 30px;
+    height: 30px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-left: 175px;
+}
+.serdse:hover {
+    filter: 
+    sepia(70%)
+    saturate(700%)
+    hue-rotate(-50deg)
+    brightness(80%);
+    cursor: pointer;
+}
+.toch:hover{
+    cursor: pointer;
+}
+.price{
+    font-size: 13px;
+}
+.Korob{
+    display: flex;
+    gap: 14px;
+    background: linear-gradient(to right, #ec33be, #ff7e33);
+    border-radius: 4px;
+    margin-right: 82%;
+    padding: 5px;
+    color: white;
+    font-weight: bold;
+}
+#zavtra{
+    font-size: 12px;
+    font-weight: bold;
+    color: #53128f;
+}
+#dasha{
+    color: #ec4e9d;
+}
+#mAm{
+    font-size: 13px;
+}
+#secta11{
+    display: flex;
+    gap: 2%;
+}
+.wrw{                         /*ВТОРОЙ ТОВАР */
+    background: url(./img/bueno.png);
+    width: 220px;
+    height: 100px;
+    margin-bottom: 10px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: 29px;
+    margin-bottom: 31px;
+}
+.oboloch22{
+    background-color: #f1e5e9;
+    padding: 20px;
+    border-radius: 20px;
+}
+.oboloch22 #rasprod{
+    background: linear-gradient(to right, #cc2d5d, #fd66a0);
+    border-radius: 3px;
+    padding: 3px;
+    color: #ffffff;
+    font-size: 13px;
+    font-weight: bold;
+}
+.oboloch22 #skitka11{
+    background: linear-gradient(to right, #cc2d5d, #fd66a0);
+    border-radius: 3px;
+    padding: 3px;
+    color: #ffffff;
+    font-size: 13px;
+    font-weight: bold;
+}
+.oboloch22 .serdse{
+    background: url(./img/heart.png);
+    width: 30px;
+    height: 30px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    filter: brightness(1) saturate(1);
+}
+/*ТРЕТИЙ ТОВАР */
+.srt{
+    background: url(./img/iceCr.png);
+    width: 125px;
+    height: 170px;
+    margin-bottom: 10px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-left: 50px;
+}
+.priceHIT{
+    font-weight: bold;
+    color: rgb(51, 44, 45);
+    margin-left: 10px;
+    margin-top: 5px;
+}
+.oboloch33{
+    background-color: #f1e5e9;
+    padding: 20px;
+    border-radius: 20px;
+}
+.oboloch33 #rasprod{
+    background: linear-gradient(to right, #6a2dcc, #669bfd);
+    border-radius: 3px;
+    padding: 3px;
+    color: #ffffff;
+    font-size: 13px;
+    font-weight: bold;
+}
+.oboloch33 .serdse{
+    background: url(./img/heart.png);
+    width: 30px;
+    height: 30px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    filter: brightness(1) saturate(1);
+}
+.oboloch33 .serdse:hover {
+    filter: 
+    sepia(70%)
+    saturate(700%)
+    hue-rotate(-50deg)
+    brightness(80%);
+    cursor: pointer;
+}
+.oboloch22 .serdse:hover {
+    filter: 
+    sepia(70%)
+    saturate(700%)
+    hue-rotate(-50deg)
+    brightness(80%);
+    cursor: pointer;
+}
+.gav{                         /*ЧЕТВЕРТЫЙ ТОВАР */
+    background: url(./img/kitkat.png);
+    width: 200px;
+    height: 60px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.yyu{                         /*ПЯТЫЙ ТОВАР */
+    background: url(./img/nesquik.png);
+    width: 140px;
+    height: 160px;
+    margin-left: 25px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#secta11{
+    flex-wrap: wrap;
+}
+.Korob55{
+    display: flex;
+    gap: 14px;
+    background: linear-gradient(to right, #ec33be, #ff7e33);
+    border-radius: 4px;
+    margin-right: 80%;
+    padding: 5px;
+    color: white;
+    font-weight: bold;
+}
+.kek{   /*ШЕСТОЙ ТОВАР */
+    background: url(./img/skit.png);
+    width: 160px;
+    height: 110px;
+    margin-left: 25px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.lolr{   /*СЕДЬМОЙ ТОВАР */
+    background: url(./img/oreo.png);
+    width: 140px;
+    height: 180px;
+    margin-left: 30px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.vsp{ /*ВОСЬМОЙ ТОВАР */
+    background: url(./img/snick.png);
+    width: 190px;
+    height: 90px;
+    margin-top: 35px;
+    margin-bottom: 35px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.pis{ /*ДЕВЯТЫЙ ТОВАР */
+    background: url(./img/caramel.png);
+    width: 130px;
+    height: 180px;
+    margin-left: 30px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.losq{ /*ДЕСЯТЫЙ ТОВАР */
+    background: url(./img/twix.png);
+    width: 200px;
+    height: 80px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+.fafa{ /*ОДИННАДЦАТЫЙ ТОВАР */
+    background: url(./img/banka.png);
+    width: 120px;
+    height: 165px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-left: 45px;
+}
+.gang{ /*ДВЕНАДЦАТЫЙ ТОВАР */
+    background: url(./img/orochok.png);
+    width: 200px;
+    height: 85px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+.foot11{ /*ПОДВАЛ*/
+    background: linear-gradient(to right, #881e3e, #c2134e);
+    color: white;
+    font-family: "sak";
+    padding: 40px;
+    justify-content: space-between;
+}
+.foot11 #numTele{
+    list-style-type: none;
+}
+#numTele{
+    font-size: 20px;
+    margin-left: 0; 
+    flex-direction: column;
+}
+.foot11 #ulka{
+    list-style-type: none;
+    display: flex;
+    gap: 20px;
+    padding-top: 20px;
+    margin-left: 10%;
+}
+#ulka li a{
+    color: white;
+    text-decoration: none;
+}
+.divan{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+#numTele li{
+    margin-bottom: 30px;
+}
+#yout{
+    background: url(./img/youtube.png);
+    height: 40px;
+    width: 40px;
+    background-size: cover;
+}
+#insta{
+    background: url(./img/insta.png);
+    height: 40px;
+    width: 40px;
+    background-size: cover;
+}
+#facebook{
+    background: url(./img/faceboo.png);
+    height: 50px;
+    width: 50px;
+    background-size: cover;
+}
+#twitter{
+    background: url(./img/twitter.png);
+    height: 40px;
+    width: 40px;
+    background-size: cover;
+}
+#fochan{
+    background: url(./img/4chan.png);
+    height: 40px;
+    width: 40px;
+    background-size: cover;
+}
+#pinter{
+    background: url(./img/pinterest.png);
+    height: 40px;
+    width: 40px;
+    background-size: cover;
+}
+.karton{
+    display: flex;
+    gap: 25px;
+    margin-left: 90px;
+    margin-top: 50px;
+}
+#ulka li:hover{
+    background: linear-gradient(to right, #881e3e, #c2134e);
+    padding: 2px;
+    font-size: 17px;
+    font-weight: bold;
+}
+/* ДРУГОЙ ВАРИАНТ */
+.kos{
+    background: url(./img/shrekin.webp);
+    width: 150px;
+    height: 150px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.korzino{
+    background: url(./img/kokosh.png);
+    width: 50px;
+    height: 50px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.kombo{
+    display: flex;
+    gap: 60px;
+}
+.seno{
+    margin-top: 5px;
+    font-size: 30px;
+    font-weight: bold;
+}
+.haha a{
+    color: #87378c;
+    font-size: 14px;
+}
+.palaka{
+    font-family: "mon";
+}
+#kols{
+    font-family: "mon";
+    font-size: 30px;
+}
+#kai{
+    display: inline-flex;
+    margin: 20px;
+    flex-wrap: wrap;
+}
+.kas{
+    background: url(./img/брелокинс.webp);
+    width: 150px;
+    height: 150px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.kosun{
+    background: url(./img/дифф.webp);
+    width: 150px;
+    height: 150px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.kospo{
+    background: url(./img/игр1.jpg);
+    width: 150px;
+    height: 150px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.kosrr{
+    background: url(./img/игр2.jpg);
+    width: 150px;
+    height: 150px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.kosda{
+    background: url(./img/игр3.jpg);
+    width: 150px;
+    height: 150px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.kosda1{
+    background: url(./img/игр6.webp);
+    width: 150px;
+    height: 150px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.kosda12{
+    background: url(./img/горилла\ ест.gif);
+    width: 150px;
+    height: 150px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+/* ПРАКТИЧЕСКАЯ РАБОТА №14 */
+@font-face {
+    font-family: venec;
+    src: url(./pages/works/pr14/PassionsConflictRUS-Regular.otf);
+}
+.bodypr14 .textGhost{
+    font-family: "venec";
+    font-size: 35px;
+    text-align: center;
+    margin-top: 50px;
+}
+.textGhost{
+    background: linear-gradient(to bottom, rgb(125, 6, 155), rgb(255, 0, 76));
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.textGhost{
+    opacity: 1;
+    animation: Opagam 5s ease-in-out infinite;
+}
+@keyframes Opagam{
+    0%, 100% {opacity: 0;}
+    50% {opacity: 1;}
+}
+.cruassan{
+    background-image: url(./img/мадока.gif);
+    height: 200px;
+    width: 200px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin: 30px;
+    margin-left: 35%;
+}
+.cruassan{
+    perspective: 1000px;
+    animation: gtg 3s ease-in-out infinite;
+}
+@keyframes gtg{
+    0% { transform: rotateY(0); }
+    50% { transform: rotateY(200deg); }
+    100% { transform: rotateY(0); }
+}
+/* ПРАКТИЧЕСКАЯ РАБОТА №15 */
+.sab1{
+    background: url(./pages/works/pr15/sab1.png);
+    width: 489px;
+    height: 631px;
+}
+.sab2{
+    background: url(./pages/works/pr15/sab2.png);
+    width: 376px;
+    height: 255px;
+}
+.sab3{
+    background: url(./pages/works/pr15/sab3.png);
+    width: 379px;
+    height: 255px;
+}
+.sab4{
+    background: url(./pages/works/pr15/sab4.png);
+    width: 375px;
+    height: 239px;
+}
+.sab5{
+    background: url(./pages/works/pr15/sab5.png);
+    width: 388px;
+    height: 239px;
+}
+.bodypr15{
+    width: 1440px;
+    height: 1024px;
+}
+.bodypr15 .artsab{
+    display: grid;
+    grid-template-columns: 1fr 1fr 2fr;
+    column-gap: 20px;
+    row-gap: 24.2px;
+    margin-left: 72px;
+}
+.sab1{
+   grid-row: span 3;
+}
+.paxip{
+    grid-column: span 2;
+    font-family: "reganus";
+    font-size: 24px;
+}
+@font-face {
+    font-family: boldich;
+    src: url(./pages/works/pr15/AlumniSans-Bold.ttf);
+}
+@font-face {
+    font-family: lightec;
+    src: url(./pages/works/pr15/AlumniSans-Light.ttf);
+}
+@font-face {
+    font-family: reganus;
+    src: url(./pages/works/pr15/AlumniSans-Regular.ttf);
+}
+@font-face {
+    font-family: meganus;
+    src: url(./pages/works/pr15/AlumniSans-Medium.ttf);
+}
+.h215{
+    font-family: "meganus";
+    font-size: 48px;
+    margin-bottom: 111px;
+    text-align: center;
+}
+.p15{
+    font-family: "lightec";
+    font-size: 24px;
+    text-align: center;
+    margin-top: 112px;
+}
+/* ПРАКТИЧЕСКАЯ РАБОТА №16 */
+@font-face {
+    font-family: Jlight16;
+    src: url(./pages/works/pr16/JosefinSans-Light.ttf);
+}
+@font-face {
+    font-family: Preg16;
+    src: url(./pages/works/pr16/PlayfairDisplay-Regular.ttf);
+}
+@font-face {
+    font-family: Jreg16;
+    src: url(./pages/works/pr16/JosefinSans-Regular.ttf);
+}
+@font-face {
+    font-family: OLight16;
+    src: url(./pages/works/pr16/OpenSans_Condensed-Light.ttf);
+}
+@font-face {
+    font-family: PBlack16;
+    src: url(./pages/works/pr16/PlayfairDisplay-Black.ttf);
+}
+@font-face {
+    font-family: JBold16;
+    src: url(./pages/works/pr16/JosefinSans-Bold.ttf);
+}
+@font-face {
+    font-family: JLigital16;
+    src: url(./pages/works/pr16/JosefinSans-LightItalic.ttf);
+}
+@font-face {
+    font-family: PBlack16;
+    src: url(./pages/works/pr16/PlayfairDisplay-Black.ttf);
+}
+.body16{
+    background: rgb(241, 241, 241);
+    width: 1600px;
+    height: 5000px;
+    font-size: 16px;
+    font-family: "Jlight16";
+}
+.conta{
+    background: white;
+    text-transform: uppercase;
+    display: flex;
+    padding: 35px;
+    justify-content: center;
+    margin-left: 20%;
+    box-shadow: 1px 1px 14px rgba(0, 0, 0, 0.13);
+}
+.logoLemon1{
+    background: url(./pages/works/pr16/Logo.png);
+    width: 400px;
+    height: 166.6px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: 200px;
+    margin-left: 50%;
+    margin-bottom: 100px;
+}
+.nav16 ul{
+    display: flex;
+    list-style-type: none;
+    gap: 30px;
+}
+.nav16 ul li a{
+    text-decoration: none;
+    color: black;
+}
+.logoLemon2{
+    background: url(./pages/works/pr16/Lemon_Logo.png);
+    width: 80px;
+    height: 33px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-right: 130px;
+}
+.span16{
+    font-size: 12px;
+    width: 150px;
+    height: 12px;
+    background: white;
+    border: 1px solid rgb(194, 194, 194);
+    padding: 5px;
+    margin-left: 130px;
+    text-align: center;
+}
+.sec161{
+    background: url(./pages/works/pr16/Photo.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    padding: 360px;
+    margin-left: 20%;
+    margin-top: 80px;
+    padding-left: 30px;
+}
+.logoLemon3{
+    background: url(./pages/works/pr16/Logo.png);
+    width: 300px;
+    height: 125px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.bananas{
+     position: absolute;
+}
+.sec161 h3{
+    margin-top: 40px;
+    margin-left: 80px;
+    font-size: 24px;
+    font-family: "Preg16";
+    color: #7c182a;
+}
+.sec161 .logoLemon3{
+    margin-top: -280px;
+    margin-left: 80px;
+}
+.sec161 p{
+    margin-left: 80px;
+    width: 340px;
+}
+.sec161 button{
+    margin-left: 80px;
+    background: none;
+    border: 1px solid rgb(194, 194, 194);
+    padding: 5px;
+    font-family: "Jlight16";
+}
+.sec162{
+    background: white;
+    margin-left: 20%;
+    box-shadow: 1px 1px 14px rgba(0, 0, 0, 0.13);
+    margin-top: -100px;
+    padding: 50px;
+    display: flex;
+    justify-content: center;
+    gap: 130px;
+}
+.salatic{
+    background: url(./pages/works/pr16/Photo1.png);
+    height: 300px;
+    width: 300px;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.prosmoy{
+    display: flex;
+    margin-top: -10px;
+    gap: 4px;
+    font-size: 12px;
+}
+.sawil1 p{
+    margin-top: -90px;
+}
+.time16{
+    background: url(./pages/works/pr16/Clock\ Icon.png);
+    height: 10px;
+    width: 10px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-top: 2px;
+}
+.soo16{
+    background: url(./pages/works/pr16/Comment\ Icon\ copy.png);
+    height: 13px;
+    width: 12px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-top: 2px;
+}
+.eya16{
+    background: url(./pages/works/pr16/Veiw\ Icon\ copy.png);
+    height: 12px;
+    width: 12px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-top: 2px;
+}
+.pastani{
+    background: url(./pages/works/pr16/Photo2.png);
+    height: 300px;
+    width: 300px;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.pemeni{
+    background: url(./pages/works/pr16/Photo3.png);
+    height: 300px;
+    width: 300px;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.sawil2 p{
+    margin-top: -90px;
+}
+.sawil3 p{
+    margin-top: -90px;
+    width: 300px;
+}
+.sec163{
+    background: url(./pages/works/pr16/Photo4.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    padding: 360px;
+    margin-left: 20%;
+    margin-top: 80px;
+    padding-left: 30px;
+}
+.applepie{
+    position: absolute;
+    margin-left: 600px;
+    margin-top: -50px;
+    font-size: 16px;
+}
+.gallar16{
+    background: url(./pages/works/pr16/Icon.png);
+    height: 25px;
+    width: 25px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-left: 490px;
+    margin-top: 15px;
+    position: absolute;
+    z-index: 2;
+}
+.gallar16FONE{
+    height: 55px;
+    width: 30px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background: black;
+    opacity: 30%;
+    margin-left: 485px;
+    margin-top: 73.5px;
+    position: relative;
+    z-index: 1;
+}
+.iwan{
+    margin-top: -421px;
+}
+.timeas{
+    display: flex;
+    gap: 4px;
+    font-size: 16px;
+}
+.timeas button{
+    margin-left: 290px;
+    background: none;
+    border: 1px solid rgb(194, 194, 194);
+    padding: 5px;
+    font-family: "Jlight16";
+    margin-top: -10px;
+    font-size: 12px;
+    width: 100px;
+}
+.applepie h2{
+    font-size: 32px;
+    font-family: "PBlack16";
+    color: #055555;
+}
+.applepie h3{
+    font-family: "Preg16";
+}
+.applepie .cup16{
+    width: 535px;
+    line-height: 18px;
+}
+.applepie .arr16{
+    width: 510px;
+    line-height: 18px;
+}
+.sec164{
+    display: flex;
+    margin-top: -80px;
+    position: relative;
+    margin-left: 20%;
+    gap: 70px;
+}
+.conf1{
+    background: url(./pages/works/pr16/Photo5.png);
+    height: 600px;
+    width: 600px;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.conf2{
+    background: white;
+    height: 580px;
+    width: 600px;
+    margin-top: 5px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    box-shadow: 1px 1px 14px rgba(0, 0, 0, 0.13);
+}
+.polos1{
+    background: rgb(194, 194, 194);
+    width: 450px;
+    height: 2px;
+    margin-top: 60px;
+    margin-left: 70px;
+}
+.conf1 .w404{
+    margin-left: 70px;
+    margin-top: 30px;
+    position: absolute;
+    font-size: 20px;
+    font-family: "Jreg16";
+    font-style: italic;
+}
+.conf1 .sorry{
+    margin-left: 260px;
+    margin-top: 190px;
+    position: absolute;
+    font-size: 34px;
+    font-family: "JBold16";
+}
+.conf1 .wecould{
+    margin-left: 230px;
+    margin-top: 230px;
+    width: 150px;
+    position: absolute;
+    font-size: 16px;
+    font-family: "PBlack16";
+    color: rgb(146, 146, 146);
+    text-align: center;
+}
+.conf1 .gr16{
+    margin-left: 290px;
+    margin-top: 280px;
+    position: absolute;
+}
+.conf1 button{
+    margin-left: 250px;
+    margin-top: 450px;
+    background: none;
+    position: absolute;
+    border: 1px solid rgb(194, 194, 194);
+    padding: 5px;
+    font-family: "Jlight16";
+    font-size: 12px;
+    width: 100px;
+}
+.polos2{
+    background: rgb(194, 194, 194);
+    width: 450px;
+    height: 2px;
+    margin-top: 50px;
+    margin-left: 70px;
+}
+.conf2 .auth{
+    margin-left: 70px;
+    margin-top: 20px;
+    position: absolute;
+    font-size: 20px;
+    font-family: "Jreg16";
+    font-style: italic;
+}
+.conf2 .kg16{
+    margin-top: 40px;
+    position: absolute;
+    font-size: 24px;
+    font-family: "JBold16";
+}
+.conf2 p{
+    margin-left: 170px;
+    margin-top: 80px;
+    position: absolute;
+    font-size: 14px;
+    font-family: "JLigital16";
+    line-height: 17px;
+    width: 310px;
+}
+.conf2 .unit16{
+    margin-top: 70px;
+    position: absolute;
+}
+.soc16{
+    background: url(./pages/works/pr16/Icons.png);
+    height: 100px;
+    width: 100px;
+    margin-top: 95px;
+    margin-left: 170px;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.conf2 .polos3{
+    background: rgb(194, 194, 194);
+    width: 350px;
+    height: 2px;
+    margin-top: -60px;
+    margin-left: 170px;
+}
+.conf2 h3{
+    margin-left: 170px;
+    margin-top: 30px;
+    position: absolute;
+    font-size: 20px;
+    font-family: "Jreg16";
+    line-height: 17px;
+    width: 310px;
+    font-weight: lighter;
+    font-style: italic;
+}
+.signa16{
+    background: url(./pages/works/pr16/Signature.png);
+    height: 200px;
+    width: 200px;
+    margin-top: 250px;
+    margin-left: 280px;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.g16ava{
+    background: url(./pages/works/pr16/Photo6.png);
+    height: 100px;
+    width: 100px;
+    margin-top: 20px;
+    margin-left: 50px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    float: left;
+    padding-left: 20px;
+}
+.foot16 nav{
+    background: rgb(49, 49, 49);
+    text-transform: uppercase;
+    display: flex;
+    padding: 60px;
+    justify-content: center;
+    margin-left: 20%;
+    margin-top: 150px;
+    gap: 30px;
+}
+.foot16 nav ul li a, .foot16 span{
+    color: rgb(121, 121, 121);
+    font-weight: lighter;
+}
+.logoLemon4 {
+    background: url(./pages/works/pr16/Logo2.png);
+    height: 120px;
+    width: 120px;
+    margin-right: 30px;
+    margin-top: -20px;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.foot16 nav ul{
+    margin-top: 100px;
+}
+.foot16 .soc16{
+    margin-left: 1420px;
+    margin-top: -140px;
+}
+/* ПРАКТИЧЕСКАЯ РАБОТА №17 */
+.main17{
+    background: white;
+}
+.body17{
+    width: 480px;
+}
+.sec171 h1{
+    background: #1e90ff;
+    padding: 20px;
+    text-align: center;
+    color: white;
+    font-size: 35px;
+    font-family: "bouReg";
+}
+.burger17{
+    background: url(./pages/works/pr17/9.png);
+    width: 50px;
+    height: 50px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: absolute;
+    margin-top: -95px;
+    margin-left: 400px;
+}
+.netdr17{
+    background: rgb(85, 85, 85);
+    padding: 20px;
+    margin-top: -33px;
+    z-index: 1;
+    color: white;
+    font-size: 18px;
+    text-align: center;
+    font-family: "bouExLig";
+    font-weight: bold;
+}
+.netdr17 .Business{
+    background: #39a6ff;
+    padding: 20px;
+}
+.sec172{
+    margin-top: 20px;
+}
+.sec172 .angelina{
+    display: flex;
+    gap: 20px;
+    margin-top: 10px;
+    font-family: "bouExLig";
+}
+.angelina .angel17{
+    font-size: 19px;
+    margin-top: 30px;
+}
+.angelina .fr1500{
+    font-size: 35px;
+    margin-left: 70px;
+    margin-top: 20px;
+    color: gray;
+    font-family: "bouVar";
+}
+.fr11500{
+    font-size: 35px;
+    margin-left: 125px;
+    margin-top: 20px;
+    color: gray;
+    font-family: "bouVar";
+}
+.sec172 .fr17{
+    margin-left: 355px;
+    margin-top: -40px;
+    font-size: 20px;
+    position: absolute;
+    color: gray;
+    font-family: "bouExLig";
+}
+.sec172 .countr17{
+    margin-left: 120px;
+    margin-top: -40px;
+    position: absolute;
+    color: gray;
+    font-size: 16px;
+    font-family: "bouReg";
+}
+.joly{
+    background: url(./pages/works/pr17/1.png);
+    width: 100px;
+    height: 100px;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.num2Joly{
+    background: url(./pages/works/pr17/2.png);
+    width: 40px;
+    height: 40px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: absolute;
+    margin-left: 75px;
+}
+@font-face {
+    font-family: bouExLig;
+    src: url(./pages/works/pr17/Bounded-ExtraLight.ttf);
+}
+@font-face {
+    font-family: bouReg;
+    src: url(./pages/works/pr17/Bounded-Regular.ttf);
+}
+@font-face {
+    font-family: bouVar;
+    src: url(./pages/works/pr17/Bounded-Variable.ttf);
+}
+.polos171{
+    width: 490px;
+    height: 0.4px;
+    background: gray;
+    margin-top: 20px;
+}
+.tomMay{
+    background: url(./pages/works/pr17/26.png);
+    width: 100px;
+    height: 100px;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.tom17{
+    font-size: 19px;
+    margin-top: 30px;
+}
+.count17rr{
+    background: white;
+}
+.set17, .ed17, .del17{
+    background: rgb(85, 85, 85);
+    padding: 35px;
+    margin: 0.5px;
+}
+.setik17{
+    display: flex;
+    color: rgb(201, 201, 201);
+    font-family: "bouExLig";
+}
+.polos172{
+    width: 480px;
+    margin-left: -20px;
+    height: 1px;
+    background: gray;
+    position: absolute;
+}
+.polos174{
+    width: 490px;
+    height: 1px;
+    background: gray;
+    margin-top: 140px;
+    position: absolute;
+}
+.settings{
+    background: url(./pages/works/pr17/25.png);
+    width: 40px;
+    height: 50px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-left: 17px;
+}
+.edit{
+    background: url(./pages/works/pr17/24.png);
+    width: 40px;
+    height: 50px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-left: -2px;
+}
+.delete{
+    background: url(./23.png);
+    width: 40px;
+    height: 50px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-left: 5px;
+}
+.rect17{
+    background: rgb(56, 56, 56);
+    width: 25px;
+    height: 140px;
+    position: absolute;
+    margin-top: -35px;
+    margin-left: -35px;
+}
+.pala1{
+    background: rgb(129, 129, 129);
+    width: 2px;
+    height: 60px;
+    position: absolute;
+    margin-left: -30px;
+}
+.pala2{
+    background: rgb(129, 129, 129);
+    width: 2px;
+    height: 60px;
+    position: absolute;
+    margin-left: -35px;
+}
+.palon17{
+    margin-left: 8px;
+}
+.count17rr{
+    margin-top: 35px;
+}
+.count17rr .r{
+    font-family: "bouVar";
+    font-size: 35px;
+    color: rgb(99, 99, 99);
+}
+.count17rr .t{
+    font-size: 20px;
+}
+.ten17{
+    font-size: 19px;
+    margin-top: 30px;
+}
+.fr15100{
+    font-size: 35px;
+    margin-left: 135px;
+    margin-top: 20px;
+    color: gray;
+    font-family: "bouVar";
+}
+.fr127{
+    margin-left: 360px;
+    margin-top: -42px;
+    font-size: 20px;
+    position: absolute;
+    color: gray;
+    font-family: "bouExLig";
+}
+.angelina .Ten{
+    background: url(./pages/works/pr17/22.png);
+    width: 100px;
+    height: 100px;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.sec174{
+    margin-top: 80px;
+    color: gray;
+    font-family: "bouExLig";
+    font-weight: bold;
+    text-align: center;
+    font-size: 18px;
+}
+.load17{
+    background: url(./pages/works/pr17/21.png);
+    width: 40px;
+    height: 70px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    justify-self: center;
+    margin: auto;
+}
+/* ПРАКТИЧЕСКАЯ РАБОТА №18 */
+.header18{
+    display: flex;
+    gap: 1370px;
+    justify-content: center;
+}
+.header18 h1{
+    text-transform: uppercase;
+    font-weight: lighter;
+    font-size: 16px;
+}
+.nav18 ul{
+    display: flex;
+    gap: 10px;
+    list-style-type: none;
+    margin-top: 8px;
+}
+.nav18 ul li a{
+    text-decoration: none;
+    color: #333;
+    font-size: 12px;
+}
+.nav18 ul li a:hover{
+    color: #7a8294;
+}
+.art18{
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+}
+.img18{
+    background: #000;
+    height: 600px;
+    width: 610px;
+}
+.box18{
+    text-align: center;
+    color: white;
+    margin-top: -550px;
+}
+.box18 h2{
+    font-size: 30px;
+    text-transform: uppercase;
+}
+.box18 button{
+    font-size: 16px;
+    background: none;
+    color: white;
+    padding: 5px;
+}
+.img181{
+    background: url(./pages/works/pr18/midi.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.img182{
+    background: url(./pages/works/pr18/pieap.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.img183{
+    background: url(./pages/works/pr18/pirog.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.social18{
+    display: flex;
+    margin-top: 470px;
+    gap: 20px;
+    justify-content: center;
+}
+.kar18{
+    background: none;
+    width: 15px;
+    height: 15px;
+}
+.inst18{
+    background: url(./pages/works/pr18/inst.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.tg18{
+    background: url(./pages/works/pr18/tg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.yout18{
+    background: url(./pages/works/pr18/yuot.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.tt18{
+    background: url(./pages/works/pr18/tt.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.vk18{
+    background: url(./pages/works/pr18/vk.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
